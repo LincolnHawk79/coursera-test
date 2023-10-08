@@ -17,16 +17,21 @@
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  
+  color: #121211;
   font-size: 1.5em;
-  text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   line-height: .75;
 }
+
+.container div {
+ margin-bottom: 10px;
+ border:2px ;
+ border-color:#121211;
+}
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
@@ -42,30 +47,17 @@
 
 #nav-list {
   margin-top: 10px;
+  background:#edc2c2;
 }
 #nav-list a {
-  color: #951C49;
+  color: #0f0f0f;
   text-align: center;
+  border: 1px solid #61122f;
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
-#nav-list a span {
-  font-size: 1.8em;
-}
 
-#phone {
-  margin-top: 5px;
-}
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
-}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -83,23 +75,14 @@ body {
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 80px;
-  text-align: center;
+  margin-bottom: 40px;
 }
 
-#menuitems div  {
+#menuitems {
 box-sizing: border-box;
-float: left;
-margin-top: 0px;
 margin-bottom: 10px;
-margin-right: 0px;
-margin-left: 0px;
 background-color: white;
-padding-left: 15px;
-padding-right: 15px;
-padding-bottom: 20px;
-padding-top: 30px;
-position: relative;
+
 }
 
 section {
@@ -110,43 +93,17 @@ section {
   padding-right: 15px;
   padding-bottom: 0px;
   padding-top: 30px;
-  height: 190px;
+  height: 1000px;
   
 }
 
 p {
-  border: 1px solid black;
-  background-color: #002A2A;
-  width: 25%;
+  horizontal-align: middle;
+  width: 100%;
   height: 24px;
-  margin: 0px;
-  font-family: ArialBlack;
-  color: white;
+  margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
-  float: right;
-  position: relative;
-  top: 0px;
-  right: 0px;
+  
 }
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-  background-color: blue;
-  border: 1px solid white;
-}
-.p1  {
-  background-color: skyblue;
-
-}
-.p2  {
-  background-color: red;
-
-}
-.p3  {
-  background-color: darkorange;
-
-}
-
 
